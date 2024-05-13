@@ -1,4 +1,4 @@
-package odd;
+package ru.ls.qa.school.core.odd;
 
 public class OddTask {
     public static void main(String[] args) {

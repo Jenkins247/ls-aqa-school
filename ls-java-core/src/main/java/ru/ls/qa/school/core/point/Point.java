@@ -1,4 +1,4 @@
-package point;
+package ru.ls.qa.school.core.point;
 
 public class Point {
     private double xPoint;

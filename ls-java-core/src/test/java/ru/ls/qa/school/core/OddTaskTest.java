@@ -1,4 +1,6 @@
-import odd.OddTask;
+package ru.ls.qa.school.core;
+
+import ru.ls.qa.school.core.odd.OddTask;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

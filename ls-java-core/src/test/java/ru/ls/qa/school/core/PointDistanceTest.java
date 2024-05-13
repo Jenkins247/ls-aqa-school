@@ -1,6 +1,8 @@
+package ru.ls.qa.school.core;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import point.Point;
+import ru.ls.qa.school.core.point.Point;
 
 public class PointDistanceTest {
     @Test
