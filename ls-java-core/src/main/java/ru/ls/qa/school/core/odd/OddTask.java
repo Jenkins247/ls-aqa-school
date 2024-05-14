@@ -6,6 +6,6 @@ public class OddTask {
     }
 
     public static boolean isOdd(int number) {
-        return number % 2 == 0 ? false : true;
+        return number % 2 != 0;
     }
 }
