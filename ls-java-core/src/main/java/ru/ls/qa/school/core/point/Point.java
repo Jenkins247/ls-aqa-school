@@ -1,4 +1,4 @@
-package point;
+package ru.ls.qa.school.core.point;
 
 public class Point {
     private double xPoint;
@@ -8,9 +8,10 @@ public class Point {
         this.xPoint = x;
         this.yPoint = y;
     }
-    public double distance(Point point){
+
+    public double distance(Point point) {
         double rangeX = this.xPoint - point.xPoint;
         double rangeY = this.yPoint - point.yPoint;
-        return Math.sqrt(rangeX*rangeX + rangeY*rangeY);
+        return Math.sqrt(rangeX * rangeX + rangeY * rangeY);
     }
 }
